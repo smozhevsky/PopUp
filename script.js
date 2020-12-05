@@ -1,12 +1,14 @@
+//hide PopUp when page load
 $(document).ready(() => {
-  //hide PopUp when page load
   PopUpHide();
 });
-//show the PopUp
+
+//PopUp show
 PopUpShow = () => {
   $("#popup1").show();
 };
-//Функция скрытия PopUp
+
+//PopUp hide
 PopUpHide = () => {
   $("#popup1").hide();
 };
